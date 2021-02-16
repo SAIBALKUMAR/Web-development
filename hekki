@@ -32,7 +32,7 @@ def solve_sudoku(puzzle):
                 return True
         puzzle[row][col]=-1
     return False
-
+# -1 indicates empty box
 if __name__ == '__main__':
     example_board = [[-1,-1,-1, -1,-1,1, 4,8,-1],
                      [2,6,-1, -1,5,8, -1,1,-1],
